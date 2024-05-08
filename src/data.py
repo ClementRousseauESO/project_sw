@@ -29,13 +29,14 @@ class package(item):
     var: list[UUID] | None
     
 class ongoing_mode(Enum):
-    ano=1
-    decl_ano=2
-    pre_defi=3
-    defi=4
-    pre_decl=5
-    decl=6
-    term=7
+    not_created=1
+    ano=2
+    decl_ano=3
+    pre_defi=4
+    defi=5
+    pre_decl=6
+    decl=7
+    term=8
     
 @dataclass
 class parsed_file:
